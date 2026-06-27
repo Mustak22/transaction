@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+psycopg2-binary
+sqlalchemy
+
+
+uvicorn transaction.main:app --reload
+http://127.0.0.1:8000/items/
